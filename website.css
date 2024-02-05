@@ -1,0 +1,719 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&family=Outfit:wght@300;400;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background: url(./images/BACKGROUND1.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    
+}
+.gridlayout{
+    margin: auto;
+    width: 95%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 0px 0px;
+}
+.logo img{
+    width: 175px;
+}
+.headericon img{
+    width: 55px;
+    padding: 10px 0px 0px 0px;
+}
+.headertext{
+    padding: 40px 0px;
+}
+.headertext h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 80px;  
+}
+.headertext h4{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+}
+.headertext img{
+    padding-left: 525px;
+}
+.headertext h3{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+}
+.headertext button{
+    background-color: #3CBEEE;
+    padding: 15px 40px;
+    border-radius: 35px;
+    margin-top: 90px;
+}
+.headerbutton{
+    display: flex;
+    justify-content: center;
+}
+.discover{
+
+    margin-top: 20px;
+}
+
+.div ul li{
+    list-style-type: none;
+}
+.webd{
+    font-weight: bolder;
+}
+.div{
+    opacity: 0;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    right: 80px;
+    top: 25px;
+}
+.stripes:hover .div{
+    opacity: 1;
+}
+.div ul{
+    display: flex;
+    gap: 25px;
+}
+.div ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+}
+.about{
+    margin-top: 40px;
+}
+.aboutmain{
+    display: flex;
+}
+.aboutimage{
+    display: flex;
+    gap: 15px;
+}
+.aboutimage1{
+    margin-bottom: 15px;
+}
+.aboutimage2{
+    margin-bottom: 15px;
+}
+.aboutheadingh4{
+    font-family: 'Montserrat', sans-serif;
+    color: #2479FF;
+    font-weight: bolder;
+}
+.aboutheadingh2{
+    font-family: 'Outfit', sans-serif;
+    font-size: 45px;
+    width: auto;
+    margin-top: 10px;
+}
+.aboutheadingp{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    width: 90%;
+    font-size: 20px;
+}
+.aboutlogos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.aboutlogo1 img{
+    float: left;
+    padding: 0px 15px 0px 0px;
+}
+.aboutlogo2 img{
+    float: left;
+    padding: 0px 15px 0px 0px;
+}
+.aboutlogo3 img{
+    float: left;
+    padding: 0px 15px 0px 0px;
+}
+.aboutlogo4 img{
+    float: left;
+    padding: 0px 30px 0px 0px;
+}
+.aboutlogos p{
+    font-family: 'Montserrat', sans-serif;
+}
+.aboutlogos h4{
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 3px;
+}
+.aboutlogo3{
+    margin-top: 20px;
+}
+.aboutlogo4{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.abouttext{
+    margin-top: 50px;
+}
+.gallerymain h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #2479FF;
+    font-weight: bolder;
+}
+.gallerymain h2{
+    font-family: 'Outfit', sans-serif;
+    font-size: 45px;
+    width: auto;
+    margin-top: 5px;
+}
+.gallerymain{
+    text-align: center;
+    margin-top: 60px;
+}
+.galleryimages{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+.galleryimages img{
+    margin-bottom: 20px;
+}
+.testimonialbg{
+    background: url(./images/testimonialbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.testimonialtext h2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 50px;
+    padding: 0px 0px 0px 15px;
+}
+.testimonialtext h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #B5EBFF;
+    font-size: 25px;
+    padding: 40px 0px 0px 15px;
+}
+.testimonialtext img{
+    padding-left: 20px;
+}
+.testimonialflex img{
+    padding: 20px 0px 0px 18px;
+}
+.testimonialflex{
+    display: flex;
+    padding: 30px 0px;
+}
+.testimonialflex p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 15px 0px 0px 40px;
+    font-size: 25px;
+    width: 65%;
+}
+.profile{
+    display: flex;
+    padding: 20px 0px 0px 145px;
+}
+.profile h4{
+    color: white;
+    font-size: 35px;
+}
+.profile img{
+    width: 70px;
+}
+.totalcards{
+    display: flex;
+    margin-top: 70px;
+    gap: 25px;
+}
+.tickntext{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.price{
+    display: flex;
+    padding: 6px 0px 25px 30px;
+}
+.price h3{
+    font-size: 40px;
+    font-weight: 800;
+}
+.price h6{
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 25px;
+}
+.cardinformation{
+    width: 27%;
+}
+.p p{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.cardinformation h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #2479FF; 
+}
+.cardinformation h3{
+    font-family: 'Outfit', sans-serif;
+    font-size: 40px;
+}
+.cardinformation p{
+    font-family: 'Montserrat', sans-serif;
+}
+.tickpadding{
+    padding: 25px 0px 0px 30px;
+}
+.cardinformation button{
+    margin-top: 50px;
+}
+.card1{
+    width: 23%;
+    background-image: linear-gradient(to top,#0500FF,#00BAFF,#0264FF);
+    box-shadow: 0px 0px 10px 0px grey;
+}
+.card1 h4{
+    font-family: 'Outfit', sans-serif;
+    padding: 30px 0px 0px 30px;
+    color: white;
+}
+.card1 p{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+.card1 hr{
+    width: 70%;
+    margin: auto;
+}
+.card1 h3{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}.card1 h6{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+.button1{
+    display: flex;
+    justify-content: center;
+}
+.button1 button{
+    background-color: white;
+    color: #2479FF;
+    padding: 10px 23px;
+    font-family: 'Outfit', sans-serif;
+    margin: 10px 0px 30px 0px;
+}
+.cardp p{
+    padding: 6px 0px 0px 30px;
+    font-weight: 300 ;
+    font-size: small;
+    width: 80%;
+}
+.card2{
+    width: 23%;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+.card2 h4{
+    font-family: 'Outfit', sans-serif;
+    padding: 30px 0px 0px 30px;
+}
+.card2 p{
+    font-family: 'Outfit', sans-serif;
+}
+.card2 hr{
+    width: 70%;
+    margin: auto;
+}
+.card2 h3{
+    font-family: 'Outfit', sans-serif;
+}.card2 h6{
+    font-family: 'Outfit', sans-serif;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+}
+.button2 button{
+    background-color: #2479FF;
+    color: white;
+    padding: 10px 23px;
+    font-family: 'Outfit', sans-serif;
+    margin: 10px 0px 30px 0px;
+}
+.card3{
+    width: 23%;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+.card3 h4{
+    font-family: 'Outfit', sans-serif;
+    padding: 30px 0px 0px 30px;
+}
+.card3 p{
+    font-family: 'Outfit', sans-serif;
+}
+.card3 hr{
+    width: 70%;
+    margin: auto;
+}
+.card3 h3{
+    font-family: 'Outfit', sans-serif;
+}.card3 h6{
+    font-family: 'Outfit', sans-serif;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+}
+.button2 button{
+    background-color: #2479FF;
+    color: white;
+    padding: 10px 23px;
+    font-family: 'Outfit', sans-serif;
+    margin: 10px 0px 30px 0px;
+}
+.contact{
+    margin-top: 60px
+}
+.formtext1 a{
+    text-decoration: none;
+}
+.formlogos p{
+    color: black;
+}
+.formtext h2{
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.formtext1 h2{
+    font-family: 'Outfit', sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.formtext1 h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #2479FF;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+.formtext1 p{
+    font-family: 'Montserrat', sans-serif;
+}
+input{
+    padding: 12px 220px 12px 10px;
+    margin-bottom: 15px;
+}
+.message input{
+    padding: 12px 220px 120px 10px;
+    margin-bottom: 15px;
+}
+button{
+    padding: 10px 25px;
+    background-color: #2479FF;
+    border: 0;
+    color: white;
+}
+.contactflex{
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+}
+.formtext1{
+    margin: 0px;
+    width: 50%;
+}
+.formlogos{
+    display: flex;
+    gap: 180px;
+    margin-top: 40px;
+}
+.formlogos1{
+    display: flex;
+    gap: 238px;
+    margin-top: 40px;
+}
+.formlogo1{
+    display: flex;
+    gap: 15px;
+}
+.formlogo1text{
+    margin-top: 5px;
+}
+.formlogo2{
+    display: flex;
+    gap: 15px;
+}
+.formlogo2text{
+    margin-top: 5px;
+}
+.formlogo3{
+    display: flex;
+    gap: 15px;
+}
+.formlogo3text{
+    margin-top: 5px;
+}
+.formlogo4{
+    display: flex;
+    gap: 15px;
+}
+.formlogo4text{
+    margin-top: 5px;
+}
+/* .formlogo4{
+    margin-right: 120px;
+    margin-top: 50px;
+} */
+/* .formlogo3{
+    margin-top: 50px;
+} */
+.formlogo1text h4{
+    color: black;
+}
+.formlogo2text h4{
+    color: black;
+}
+.formlogo3text h4{
+    color: black;
+}
+.formlogo4text h4{
+    color: black;
+}
+.map iframe{
+    margin-top: 50px;
+}
+.footerbg{
+    background: url(./images/fotter\ bg.png);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footermain{
+    display: flex;
+    justify-content: space-between;
+}
+.navigationitems{
+    padding: 80px 0px 0px 40px;
+}
+.navigationitems h3{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-bottom: 30px;
+}
+.navigationitems ul li{
+    list-style: none;
+    margin-bottom: 25px;
+}
+.navigationitems ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.logocenter{
+    display: flex;
+    justify-content: center;
+}
+.centerfooter{
+    margin-top: 50px;
+}
+.centerfooter h4{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    color: white;
+    font-size: 25px
+}
+.centerfooter p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+}
+.followitems ul li{
+    list-style: none;
+}
+.followitems{
+    padding: 80px 40px 0px 0px;
+}
+.followitems h3{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-bottom: 30px;
+}
+.followitems ul li{
+    list-style: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+}
+.centerfooter input{
+    background-color: transparent;
+    padding: 15px 140px 15px 20px;
+    border: 1px solid white;
+}
+.centerfooter button{
+    color: black;
+    background-color: white;
+    position: relative;
+    left: -120px;
+}
+.subscribe ::placeholder{
+    color: white;
+}
+.subscribe{
+    padding: 40px 0px 0px 152px;
+}
+.inputcentering{
+    display: flex;
+    justify-content: center;
+}
+.credits{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.credits h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.creditsleft{
+    display: flex;
+    gap: 10px;
+}
+.creditsleft img{
+    width: 20px;
+}
+.centering{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+@media screen and (max-width:500px){
+    .headertext,.aboutmain,.galleryimages,.aboutimage,.contactflex,.footermain,.subscribe,.totalcards,.testimonialflex{
+        display: block;
+    }
+    .bg{
+        height: auto;
+        width: auto;
+    }
+    .headertext h1{
+        font-size: 57px;
+    }
+    .headertext h4 {
+        font-size: 30px;
+    }
+    .headertext img {
+        padding-left: 82px;
+    }
+    .headertext h3{
+        font-size: 21px;
+    }
+    .aboutimage1 img{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .aboutimage2 img{
+        width: 100%;
+    }
+    .aboutimage3 img{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .aboutimage4 img{
+        width: 100%;
+    }
+    .footerbg{
+        height: auto;
+    }
+    .testimonialbg{
+        height: 1050px;
+        background-size: cover;
+    }
+    .subscribe{
+        padding:  20px 0px 0px 20px
+    }
+    .followitems{
+        padding: 0px 0px 20px 0px;
+        text-align: center;
+    }
+    .navigationitems{
+        padding: 20px 0px 0px 0px;
+        text-align: center
+    }
+    .centerfooter button{
+        left: 208px;
+        top: -55px;
+    }
+    .cardinformation{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .card1{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .card2{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .card3{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .formtext1{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .formlogo2{
+        margin-top: 40px; 
+    }
+    input{
+        padding: 12px 202px 12px 10px;
+    }
+    .message input{
+        padding: 12px 202px 120px 10px;
+    }
+    .profile{
+        padding: 0px;
+    }
+    .testimonialtext h4 {
+         padding: 10px 0px 0px 15px;;
+    }
+}
+
+
+
+
+
+@media screen (min-width:700px) and (max-width:850px){
+
+    
+}
